@@ -1,13 +1,12 @@
-body {
-  background-color: #fff5f6;
-  font-family: "DM Sans";
-  background-image: linear-gradient(#ffffff 21%, #fff5f6 21%);
+:root {
+  --main-font: "DM Sans", sans-serif;
 }
 
-.container {
+.container-contact {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
+  background-image: linear-gradient(#ffffff 21%, #fff5f6 21%);
 }
 
 .visually-hidden {
@@ -53,6 +52,7 @@ body {
 
   width: 80px;
 
+  font-family: var(--main-font);
   font-size: 12px;
   line-height: 1.86;
   border-radius: 4px;
@@ -73,6 +73,7 @@ body {
   margin-top: 0;
   margin-bottom: 8px;
 
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -94,6 +95,7 @@ body {
   margin-bottom: 24px;
   max-width: 179px;
 
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -119,6 +121,7 @@ body {
 }
 
 .contacts-card__shedule-day {
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -127,6 +130,7 @@ body {
 }
 
 .contacts-card__shedule-time {
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -143,6 +147,7 @@ body {
 
 .contacts-card__contacts-tel,
 .contacts-card__contacts-email {
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -171,6 +176,7 @@ body {
   padding-left: 17px;
   padding-right: 30px;
 
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
